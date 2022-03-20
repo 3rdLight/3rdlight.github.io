@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-19T15:05:50.611Z</updated>
+  <updated>2022-03-20T16:06:47.461Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,22 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2022/03/19/hello-world/"/>
-    <id>http://example.com/2022/03/19/hello-world/</id>
-    <published>2022-03-19T15:05:50.610Z</published>
-    <updated>2022-03-19T15:05:50.611Z</updated>
+    <title>cpp vector容器浅析</title>
+    <link href="http://example.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/"/>
+    <id>http://example.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/</id>
+    <published>2022-03-20T15:40:46.000Z</published>
+    <updated>2022-03-20T16:06:47.461Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="什么是vector："><a href="#什么是vector：" class="headerlink" title="什么是vector："></a>什么是vector：</h3><p>Vector是一个封装了动态大小数组的顺序容器（Sequence Container）。跟任意其它类型容器一样，它能够存放各种类型的对象。可以简单的认为，Vector是一个能够存放任意类型的动态数组。</p><span id="more"></span><hr><h3 id="容器特性："><a href="#容器特性：" class="headerlink" title="容器特性："></a>容器特性：</h3><h4 id="顺序序列"><a href="#顺序序列" class="headerlink" title="顺序序列"></a>顺序序列</h4><p>顺序容器中的元素按照严格的线性顺序排序。可以通过元素在序列中的位置访问对应的元素。</p><h4 id="动态数组"><a href="#动态数组" class="headerlink" title="动态数组"></a>动态数组</h4><p>支持对序列中的任意元素进行快速直接访问，甚至可以通过指针算述进行该操作。提供了在序列末尾相对快速地添加&#x2F;删除元素的操作。</p><h4 id="能够感知内存分配器的（Allocator-aware）"><a href="#能够感知内存分配器的（Allocator-aware）" class="headerlink" title="能够感知内存分配器的（Allocator-aware）"></a>能够感知内存分配器的（Allocator-aware）</h4><p>容器使用一个内存分配器对象来动态地处理它的存储需求。</p><hr><h3 id="基本函数实现："><a href="#基本函数实现：" class="headerlink" title="基本函数实现："></a>基本函数实现：</h3><p>vector():创建一个空vector</p><p>vector(int nSize):创建一个vector,元素个数为nSize</p><p>vector(int nSize,const t&amp; t):创建一个vector，元素个数为nSize,且值均为t</p><p>vector(const vector&amp;):复制构造函数</p><p>vector(begin,end):复制[begin,end)区间内另一个数组的元素到vector中</p><hr><h3 id="基本用法："><a href="#基本用法：" class="headerlink" title="基本用法："></a>基本用法：</h3><p>Vector&lt;类型&gt;标识符</p><p>Vector&lt;类型&gt;标识符(最大容量)</p><p>Vector&lt;类型&gt;标识符(最大容量,初始所有值)</p><p>Int i[5]&#x3D;{1,2,3,4,5}<br>Vector&lt;类型&gt;vi(I,i+2);&#x2F;&#x2F;得到i索引值为3以后的值</p><p>Vector&lt; vector&lt; int&gt; &gt;v; 二维向量&#x2F;&#x2F;<strong>注意这里最外的&lt;&gt;要有空格。否则在比较旧的编译器下无法通过</strong></p><hr>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;h3 id=&quot;什么是vector：&quot;&gt;&lt;a href=&quot;#什么是vector：&quot; class=&quot;headerlink&quot; title=&quot;什么是vector：&quot;&gt;&lt;/a&gt;什么是vector：&lt;/h3&gt;&lt;p&gt;Vector是一个封装了动态大小数组的顺序容器（Sequence Container）。跟任意其它类型容器一样，它能够存放各种类型的对象。可以简单的认为，Vector是一个能够存放任意类型的动态数组。&lt;/p&gt;</summary>
     
     
     
+    <category term="技术栈" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+    <category term="c++" scheme="http://example.com/tags/c/"/>
+    
+    <category term="vector" scheme="http://example.com/tags/vector/"/>
+    
+    <category term="STL" scheme="http://example.com/tags/STL/"/>
     
   </entry>
   
