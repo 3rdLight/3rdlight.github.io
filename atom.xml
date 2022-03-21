@@ -3,11 +3,11 @@
   <title>小朱Blog</title>
   
   <subtitle>个人技术博客</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://zhubingguang.com/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://zhubingguang.com/"/>
   <updated>2022-03-20T16:06:47.461Z</updated>
-  <id>http://example.com/</id>
+  <id>http://zhubingguang.com/</id>
   
   <author>
     <name>Zhu Bingguang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>cpp vector容器浅析</title>
-    <link href="http://example.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/"/>
-    <id>http://example.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/</id>
+    <link href="http://zhubingguang.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/"/>
+    <id>http://zhubingguang.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/</id>
     <published>2022-03-20T15:40:46.000Z</published>
     <updated>2022-03-20T16:06:47.461Z</updated>
     
@@ -30,32 +30,32 @@
     
     
     
-    <category term="技术栈" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    <category term="技术栈" scheme="http://zhubingguang.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
-    <category term="c++" scheme="http://example.com/tags/c/"/>
+    <category term="c++" scheme="http://zhubingguang.com/tags/c/"/>
     
-    <category term="vector" scheme="http://example.com/tags/vector/"/>
+    <category term="vector" scheme="http://zhubingguang.com/tags/vector/"/>
     
-    <category term="STL" scheme="http://example.com/tags/STL/"/>
+    <category term="STL" scheme="http://zhubingguang.com/tags/STL/"/>
     
   </entry>
   
   <entry>
     <title>写在前面</title>
-    <link href="http://example.com/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
-    <id>http://example.com/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</id>
+    <link href="http://zhubingguang.com/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    <id>http://zhubingguang.com/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</id>
     <published>2022-03-19T07:22:00.000Z</published>
-    <updated>2022-03-21T02:09:14.780Z</updated>
+    <updated>2022-03-21T02:33:59.848Z</updated>
     
-    <content type="html"><![CDATA[<p>写在前面的话，其实是最难写的。让我这样一本正经的写开篇的文章，着实难受。</p><span id="more"></span><p>被隔离了。</p><p>3月13办理入住，告知3月16解除，16当天又通知我要继续隔离到3月27，万幸酒店环境设施还不错。</p><p>在情况不明朗的时候，人总是会迫切的想做点什么。</p><p>那就做个Blog吧。</p><p>从有这个念头到完成这个Blog，花了大概两天时间，期间问了一些朋友，自己也查了一些资料。</p><p>建立此Blog的初衷仅仅是记录一些技术上的东西，偶尔发发自己的生活日常。</p><p>此Blog使用了Node.js Git Hexo等技术，算是半成品加工，项目部署在GitHub。如果用React Koa Egg这一套效果应该会好一些，但我实在不会前端的技术栈，暂时也抽不出时间仔细学。</p><p>隔离的日子，非常简单，我很难真正记住每一天，只要静下心来学习，做一些事情，其实过得也挺快的，并没有多难熬。</p><p>最后，但愿我能做到将此博客持续更新。</p><p>道阻且长，行则将至。</p><p>于重庆Steigenberger酒店</p><p><img src="/.com//%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2%5C123.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>写在前面的话，其实是最难写的。让我这样一本正经的写开篇的文章，着实难受。</p><span id="more"></span><p>被隔离了。</p><p>3月13办理入住，告知3月16解除，16当天又通知我要继续隔离到3月27，万幸酒店环境设施还不错。</p><p>在情况不明朗的时候，人总是会迫切的想做点什么。</p><p>那就做个Blog吧。</p><p>从有这个念头到完成这个Blog，花了大概两天时间，期间问了一些朋友，自己也查了一些资料。</p><p>建立此Blog的初衷仅仅是记录一些技术上的东西，偶尔发发自己的生活日常。</p><p>此Blog使用了Node.js Git Hexo等技术，算是半成品加工，项目部署在GitHub。如果用React Koa Egg这一套效果应该会好一些，但我实在不会前端的技术栈，暂时也抽不出时间仔细学。</p><p>隔离的日子，非常简单，我很难真正记住每一天，只要静下心来学习，做一些事情，其实过得也挺快的，并没有多难熬。</p><p>最后，但愿我能做到将此博客持续更新。</p><p>道阻且长，行则将至。</p><p>于重庆Steigenberger酒店</p><img src="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/123.jpg" class width="1">]]></content>
     
     
     <summary type="html">&lt;p&gt;写在前面的话，其实是最难写的。让我这样一本正经的写开篇的文章，着实难受。&lt;/p&gt;</summary>
     
     
     
-    <category term="生活" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://zhubingguang.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
