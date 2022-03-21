@@ -3,11 +3,11 @@
   <title>小朱Blog</title>
   
   <subtitle>个人技术博客</subtitle>
-  <link href="http://www.zhubingguang.com/atom.xml" rel="self"/>
+  <link href="http://3rdlight.github.io/atom.xml" rel="self"/>
   
-  <link href="http://www.zhubingguang.com/"/>
+  <link href="http://3rdlight.github.io/"/>
   <updated>2022-03-20T16:06:47.461Z</updated>
-  <id>http://www.zhubingguang.com/</id>
+  <id>http://3rdlight.github.io/</id>
   
   <author>
     <name>Zhu Bingguang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>cpp vector容器浅析</title>
-    <link href="http://www.zhubingguang.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/"/>
-    <id>http://www.zhubingguang.com/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/</id>
+    <link href="http://3rdlight.github.io/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/"/>
+    <id>http://3rdlight.github.io/2022/03/20/cpp-vector%E5%AE%B9%E5%99%A8/</id>
     <published>2022-03-20T15:40:46.000Z</published>
     <updated>2022-03-20T16:06:47.461Z</updated>
     
@@ -30,21 +30,21 @@
     
     
     
-    <category term="技术栈" scheme="http://www.zhubingguang.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    <category term="技术栈" scheme="http://3rdlight.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
-    <category term="c++" scheme="http://www.zhubingguang.com/tags/c/"/>
+    <category term="c++" scheme="http://3rdlight.github.io/tags/c/"/>
     
-    <category term="vector" scheme="http://www.zhubingguang.com/tags/vector/"/>
+    <category term="vector" scheme="http://3rdlight.github.io/tags/vector/"/>
     
-    <category term="STL" scheme="http://www.zhubingguang.com/tags/STL/"/>
+    <category term="STL" scheme="http://3rdlight.github.io/tags/STL/"/>
     
   </entry>
   
   <entry>
     <title>写在前面</title>
-    <link href="http://www.zhubingguang.com/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
-    <id>http://www.zhubingguang.com/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</id>
+    <link href="http://3rdlight.github.io/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
+    <id>http://3rdlight.github.io/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</id>
     <published>2022-03-19T07:22:00.000Z</published>
     <updated>2022-03-21T02:37:01.375Z</updated>
     
@@ -55,7 +55,7 @@
     
     
     
-    <category term="生活" scheme="http://www.zhubingguang.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="http://3rdlight.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
