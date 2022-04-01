@@ -6,7 +6,7 @@
   <link href="http://3rdlight.github.io/atom.xml" rel="self"/>
   
   <link href="http://3rdlight.github.io/"/>
-  <updated>2022-03-25T02:37:27.803Z</updated>
+  <updated>2022-04-01T04:38:42.389Z</updated>
   <id>http://3rdlight.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>滑动窗口笔记</title>
+    <link href="http://3rdlight.github.io/2022/04/01/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%AC%94%E8%AE%B0/"/>
+    <id>http://3rdlight.github.io/2022/04/01/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-04-01T04:18:10.000Z</published>
+    <updated>2022-04-01T04:38:42.389Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h4><p>滑动窗口，顾名思义，就是使用双指针技巧，去维护一个窗口，不断滑动窗口（一端固定，另一端滑动），更新结果，找到最优解。麻烦的不是思路，主要是处理细节问题。</p><span id="more"></span><hr><h4 id="适用范围："><a href="#适用范围：" class="headerlink" title="适用范围："></a>适用范围：</h4><p>多用于解决子序列类的问题。</p><hr><h4 id="时间复杂度：O-N"><a href="#时间复杂度：O-N" class="headerlink" title="时间复杂度：O(N)"></a>时间复杂度：O(N)</h4><hr><h4 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h4><p>1.初始化left &#x3D; right &#x3D; 0，个人习惯区间左闭右开[left,right)，方便处理，这样只要right右移一位，区间[0,1)就包含一个元素了。</p><p>2.先不断增加右指针right扩大窗口，直到窗口符合要求。</p><p>3.停止增加right，开始不断增加left缩小窗口，直到窗口不再符合要求。同时，每次增加left更新一次结果。</p><p>4.重复第2和第3步，直到right到达尽头。</p><p>思路就是第2步寻找可行解，第3步对可行解进行优化，最终找到最优解。</p><hr><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//初始化左右指针</span></span><br><span class="line"><span class="type">int</span> letf = <span class="number">0</span>, right = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span>(right &lt; str.<span class="built_in">size</span>())&#123;</span><br><span class="line"><span class="comment">//c是将要移入窗口的字符</span></span><br><span class="line"><span class="type">char</span> c = str[right];</span><br><span class="line"><span class="comment">//增大窗口</span></span><br><span class="line">right++;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//更新散列表或数组中数据</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">while</span>(<span class="comment">/*左侧窗口需要收缩*/</span>)&#123;</span><br><span class="line"><span class="comment">//h是将要移出窗口的字符</span></span><br><span class="line"><span class="type">char</span> h = str[left];</span><br><span class="line"><span class="comment">//缩小窗口</span></span><br><span class="line">left++;</span><br><span class="line">        </span><br><span class="line">        <span class="comment">//更新散列表或数组中数据</span></span><br><span class="line">        </span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;简介：&quot;&gt;&lt;a href=&quot;#简介：&quot; class=&quot;headerlink&quot; title=&quot;简介：&quot;&gt;&lt;/a&gt;简介：&lt;/h4&gt;&lt;p&gt;滑动窗口，顾名思义，就是使用双指针技巧，去维护一个窗口，不断滑动窗口（一端固定，另一端滑动），更新结果，找到最优解。麻烦的不是思路，主要是处理细节问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="算法" scheme="http://3rdlight.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="滑动窗口" scheme="http://3rdlight.github.io/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>回溯算法笔记</title>
