@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>小朱&#39;Blog</title>
+  <title>Mute</title>
   
   <subtitle>个人技术博客</subtitle>
   <link href="http://3rdlight.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://3rdlight.github.io/</id>
   
   <author>
-    <name>ZBG</name>
+    <name>小朱</name>
     
   </author>
   
