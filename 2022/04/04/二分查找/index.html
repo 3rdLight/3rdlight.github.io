@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"3rdlight.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="最近陆陆续续做了一些题，越发能体会到：思路很简单，细节是魔鬼。 细节主要就体现在mid到底是加一还是减一，while里面应该用&lt;&#x3D;还是&lt;。">
+  <meta name="description" content="最近陆陆续续做了一些题，越发能体会到：思路很简单，细节是魔鬼。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="二分查找">
 <meta property="og:url" content="http://3rdlight.github.io/2022/04/04/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/index.html">
 <meta property="og:site_name" content="Mute">
-<meta property="og:description" content="最近陆陆续续做了一些题，越发能体会到：思路很简单，细节是魔鬼。 细节主要就体现在mid到底是加一还是减一，while里面应该用&lt;&#x3D;还是&lt;。">
+<meta property="og:description" content="最近陆陆续续做了一些题，越发能体会到：思路很简单，细节是魔鬼。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-04-04T02:54:59.000Z">
-<meta property="article:modified_time" content="2022-04-11T22:40:14.665Z">
+<meta property="article:modified_time" content="2022-04-11T22:45:40.812Z">
 <meta property="article:author" content="小朱">
 <meta property="article:tag" content="二分查找">
 <meta name="twitter:card" content="summary">
@@ -212,9 +212,10 @@
 
       
         <p>最近陆陆续续做了一些题，越发能体会到：<strong>思路很简单</strong>，<strong>细节是魔鬼</strong>。</p>
-<p>细节主要就体现在<strong>mid</strong>到底是加一还是减一，<strong>while</strong>里面应该用&lt;&#x3D;还是&lt;。</p>
 <span id="more"></span>
 
+<p>关于细节，主要就体现在<strong>mid</strong>到底是加一还是减一，<strong>while</strong>里面应该用 &lt;&#x3D; 还是 &lt; 。</p>
+<hr>
 <h4 id="一个笑话："><a href="#一个笑话：" class="headerlink" title="一个笑话："></a>一个笑话：</h4><p>有一天小明到图书馆借了 N 本书，出图书馆的时候，警报响了，于是保安把小明拦下，要检查一下哪本书没有登记出借。小明正准备把每一本书在报警器下过一下，以找出引发警报的书，但是保安露出不屑的眼神：你连二分查找都不会吗？于是保安把书分成两堆，让第一堆过一下报警器，报警器响；于是再把这堆书分成两堆…… 最终，检测了 <strong>logN</strong> 次之后，保安成功的找到了那本引起警报的书，露出了得意和嘲讽的笑容。于是小明背着剩下的书走了。</p>
 <p>从此，图书馆丢了 N - 1 本书。</p>
 <hr>
