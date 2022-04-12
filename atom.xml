@@ -6,7 +6,7 @@
   <link href="http://3rdlight.github.io/atom.xml" rel="self"/>
   
   <link href="http://3rdlight.github.io/"/>
-  <updated>2022-04-12T01:30:34.232Z</updated>
+  <updated>2022-04-12T20:51:13.668Z</updated>
   <id>http://3rdlight.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你想失去什么</title>
+    <link href="http://3rdlight.github.io/2022/04/08/%E4%BD%A0%E6%83%B3%E5%A4%B1%E5%8E%BB%E4%BB%80%E4%B9%88/"/>
+    <id>http://3rdlight.github.io/2022/04/08/%E4%BD%A0%E6%83%B3%E5%A4%B1%E5%8E%BB%E4%BB%80%E4%B9%88/</id>
+    <published>2022-04-07T19:35:26.000Z</published>
+    <updated>2022-04-12T20:51:13.668Z</updated>
+    
+    <content type="html"><![CDATA[<p>你想失去什么</p><span id="more"></span><p>很有意思的问题。</p><hr><p>最近看了一篇有关苯教的文章，里面提到了这个反人性的问题。</p><p>你失去的东西，或许不是事物本身消失了，而是在你的认知里被屏蔽了。</p><hr><p>一个记录片，讲的是一位母亲始终不相信自己有一个女儿，她终日焦虑，觉得房间里还有另一个人，各种东西会突然消失，放在她面前的一个苹果，她女儿过来碰了苹果一下，苹果在她的感知里就消失了。虽然她女儿就在她身边，但是她从来看不见她，连同和她女儿有关的一切，她都无法看到。</p><p>后面揭晓，因为她自己的原因，让女儿出了事故，因为巨大的内疚，她的大脑把有关女儿的一切信息都屏蔽了。</p><p>京极夏彦的《姑获鸟之夏》里面也有类似的内容。</p><hr><p>往往是真正重要的事物更容易失去，因为太在乎。</p><p>一旦丢失了他们，你的人生会有一块空缺，那种空虚感会不断提醒你：</p><p>你失去了自己的一部分。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;你想失去什么&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日志" scheme="http://3rdlight.github.io/categories/%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="journal" scheme="http://3rdlight.github.io/tags/journal/"/>
+    
+  </entry>
   
   <entry>
     <title>单调栈</title>
