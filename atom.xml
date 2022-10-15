@@ -6,7 +6,7 @@
   <link href="http://3rdlight.github.io/atom.xml" rel="self"/>
   
   <link href="http://3rdlight.github.io/"/>
-  <updated>2022-04-17T00:27:36.152Z</updated>
+  <updated>2022-10-15T05:22:26.780Z</updated>
   <id>http://3rdlight.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>海明校验</title>
+    <link href="http://3rdlight.github.io/2022/10/10/%E6%B5%B7%E6%98%8E%E6%A0%A1%E9%AA%8C/"/>
+    <id>http://3rdlight.github.io/2022/10/10/%E6%B5%B7%E6%98%8E%E6%A0%A1%E9%AA%8C/</id>
+    <published>2022-10-10T05:11:15.000Z</published>
+    <updated>2022-10-15T05:22:26.780Z</updated>
+    
+    <content type="html"><![CDATA[<p> <strong>例：求01101110的海明校验码。</strong>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </p><span id="more"></span><h4 id="1-校验位的位数"><a href="#1-校验位的位数" class="headerlink" title="1.校验位的位数"></a>1.校验位的位数</h4><p>设海明校验码H&lt; sub&gt;n&lt; &#x2F;sub &gt;</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt; &lt;strong&gt;例：求01101110的海明校验码。&lt;/strong&gt;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="计算机组成原理" scheme="http://3rdlight.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="海明校验" scheme="http://3rdlight.github.io/tags/%E6%B5%B7%E6%98%8E%E6%A0%A1%E9%AA%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>常见排序算法汇总</title>
