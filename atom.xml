@@ -6,7 +6,7 @@
   <link href="http://3rdlight.github.io/atom.xml" rel="self"/>
   
   <link href="http://3rdlight.github.io/"/>
-  <updated>2022-10-15T08:56:29.641Z</updated>
+  <updated>2022-10-15T10:16:42.209Z</updated>
   <id>http://3rdlight.github.io/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>README</title>
+    <link href="http://3rdlight.github.io/2022/10/15/README/"/>
+    <id>http://3rdlight.github.io/2022/10/15/README/</id>
+    <published>2022-10-15T09:36:13.000Z</published>
+    <updated>2022-10-15T10:16:42.209Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>补码一位乘法</title>
+    <link href="http://3rdlight.github.io/2022/10/15/%E8%A1%A5%E7%A0%81%E4%B8%80%E4%BD%8D%E4%B9%98%E6%B3%95/"/>
+    <id>http://3rdlight.github.io/2022/10/15/%E8%A1%A5%E7%A0%81%E4%B8%80%E4%BD%8D%E4%B9%98%E6%B3%95/</id>
+    <published>2022-10-15T09:26:06.000Z</published>
+    <updated>2022-10-15T09:26:06.116Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>原码一位乘法</title>
+    <link href="http://3rdlight.github.io/2022/10/15/%E5%8E%9F%E7%A0%81%E4%B8%80%E4%BD%8D%E4%B9%98%E6%B3%95/"/>
+    <id>http://3rdlight.github.io/2022/10/15/%E5%8E%9F%E7%A0%81%E4%B8%80%E4%BD%8D%E4%B9%98%E6%B3%95/</id>
+    <published>2022-10-15T09:25:57.000Z</published>
+    <updated>2022-10-15T09:25:57.270Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>海明校验</title>
@@ -149,9 +209,9 @@
     <link href="http://3rdlight.github.io/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
     <id>http://3rdlight.github.io/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</id>
     <published>2022-03-19T07:22:00.000Z</published>
-    <updated>2022-09-25T03:53:34.764Z</updated>
+    <updated>2022-10-15T09:22:44.674Z</updated>
     
-    <content type="html"><![CDATA[<p>写在前面的话，其实是最难写的。</p><p>让我这样一本正经的写开篇的文章，着实难受。</p><span id="more"></span><p>被隔离了。</p><p>在情况不明朗的时候，人总是会迫切的想做点什么。</p><p>那就做个博客吧。</p><p>从有这个念头到完成这个博客，花了大概两天时间。</p><p>此博客使用Hexo和GitHub pages搭建，项目部署在GitHub。我不会前端的东西，暂时也抽不出时间来仔细学，就只能先做成这样了。</p><p>建立此博客的初衷仅仅是记录一些技术上的东西，偶尔发一些生活日常。</p><p>隔离的日子，非常简单，我很难真正记住每一天，只要静下心来做一些事情，其实过得也挺快的。</p><p>最后，但愿我能做到将此博客持续更新。</p><p>道阻且长，行则将至。</p><hr><p>于重庆Steigenberger酒店</p><img src="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/123.jpg" class><img src="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/IMG_2785.JPG" class>]]></content>
+    <content type="html"><![CDATA[<p>写在前面的话，其实是最难写的。</p><p>让我这样一本正经的写开篇的文章，着实难受。</p><span id="more"></span><p>被隔离了。</p><p>在情况不明朗的时候，人总是会迫切的想做点什么。</p><p>那就做个博客吧。</p><p>从有这个念头到完成这个博客，花了大概两天时间。</p><p>此博客使用Hexo和GitHub pages搭建，项目部署在GitHub。我不会前端的东西，暂时也抽不出时间来仔细学，就只能先做成这样了。</p><p>建立此博客的初衷仅仅是记录一些技术上的东西，偶尔发一些生活日常。</p><p>隔离的日子，非常简单，我很难真正记住每一天，只要静下心来做一些事情，其实过得也挺快的。</p><p>最后，但愿我能做到将此博客持续更新。</p><p>道阻且长，行则将至。</p><hr><p>于重庆Steigenberger酒店</p><img src="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/%E5%A4%96%E6%99%AF.JPG" class>]]></content>
     
     
     <summary type="html">&lt;p&gt;写在前面的话，其实是最难写的。&lt;/p&gt;
