@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>README</title>
-      <link href="/2022/10/15/README/"/>
-      <url>/2022/10/15/README/</url>
-      
-        <content type="html"><![CDATA[<span id="more"></span>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>补码一位乘法</title>
       <link href="/2022/10/15/%E8%A1%A5%E7%A0%81%E4%B8%80%E4%BD%8D%E4%B9%98%E6%B3%95/"/>
       <url>/2022/10/15/%E8%A1%A5%E7%A0%81%E4%B8%80%E4%BD%8D%E4%B9%98%E6%B3%95/</url>
@@ -193,11 +180,36 @@
     
     
     <entry>
+      <title>README</title>
+      <link href="/2022/03/22/README/"/>
+      <url>/2022/03/22/README/</url>
+      
+        <content type="html"><![CDATA[<p><strong>此博客部署在GitHub Pages 上，由于服务器在国外，国内访问速度可能不太理想，请见谅。</strong></p><p><strong>希望此博客分享的内容能对您有所帮助。</strong></p><p><strong>如有问题，欢迎通过E-mail联系我。</strong></p><p><strong>E-mail :  bgzhu at foxmail dot com   or    bgzhucpp at gmail dot com</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> README </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>写在前面</title>
       <link href="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/"/>
       <url>/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</url>
       
-        <content type="html"><![CDATA[<p>写在前面的话，其实是最难写的。</p><p>让我这样一本正经的写开篇的文章，着实难受。</p><span id="more"></span><p>被隔离了。</p><p>在情况不明朗的时候，人总是会迫切的想做点什么。</p><p>那就做个博客吧。</p><p>从有这个念头到完成这个博客，花了大概两天时间。</p><p>此博客使用Hexo和GitHub pages搭建，项目部署在GitHub。我不会前端的东西，暂时也抽不出时间来仔细学，就只能先做成这样了。</p><p>建立此博客的初衷仅仅是记录一些技术上的东西，偶尔发一些生活日常。</p><p>隔离的日子，非常简单，我很难真正记住每一天，只要静下心来做一些事情，其实过得也挺快的。</p><p>最后，但愿我能做到将此博客持续更新。</p><p>道阻且长，行则将至。</p><hr><p>于重庆Steigenberger酒店</p><img src="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/%E5%A4%96%E6%99%AF.JPG" class>]]></content>
+        <content type="html"><![CDATA[<p>写在前面的话，其实是最难写的。</p><p>让我这样一本正经的写开篇的文章，着实难受。</p><span id="more"></span><p>被隔离了。</p><p>在情况不明朗的时候，人总是会迫切的想做点什么。</p><p>那就做个博客吧。</p><p>从有这个念头到完成这个博客，花了大概两天时间。</p><p>此博客使用Hexo和GitHub pages搭建，网页静态托管在GitHub。我不会前端的东西，暂时也抽不出时间来仔细学，就只能先做成这样了。</p><p>建立此博客的初衷仅仅是记录一些技术上的东西，偶尔发一些生活日常。</p><p>最后，但愿我能做到将此博客持续更新。</p><p>道阻且长，行则将至。</p><hr><p>于重庆Steigenberger酒店</p><img src="/2022/03/19/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/%E5%A4%96%E6%99%AF.JPG" class>]]></content>
       
       
       <categories>
