@@ -6,7 +6,7 @@
   <link href="https://3rdlight.github.io/atom.xml" rel="self"/>
   
   <link href="https://3rdlight.github.io/"/>
-  <updated>2025-08-23T12:59:14.802Z</updated>
+  <updated>2025-08-23T07:47:54.427Z</updated>
   <id>https://3rdlight.github.io/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>newpage</title>
-    <link href="https://3rdlight.github.io/2025/08/23/newpage/"/>
-    <id>https://3rdlight.github.io/2025/08/23/newpage/</id>
-    <published>2025-08-23T08:08:21.000Z</published>
-    <updated>2025-08-23T12:59:14.802Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><p>test</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;p&gt;test&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>补码一位乘法</title>
